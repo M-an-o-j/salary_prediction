@@ -1,0 +1,56 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+.prediction-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.prediction-form h1 {
+  text-align: center;
+}
+
+.prediction-form div {
+  margin-bottom: 10px;
+}
+
+.prediction-form label {
+  display: block;
+  font-weight: bold;
+}
+
+.prediction-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.prediction-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.prediction-form button:disabled {
+  background-color: #ccc;
+}
+
+.prediction-form p {
+  text-align: center;
+}
